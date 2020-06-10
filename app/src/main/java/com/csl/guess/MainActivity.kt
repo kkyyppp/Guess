@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun checck(view: View) {
+    fun check(view: View) {
         val n = ed_number.text.toString().toInt()
         println("number: $n")
         Log.d(TAG, "number: $n")
